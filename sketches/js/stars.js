@@ -19,7 +19,7 @@ function setup() {
 
 function makeStars(){
   noStroke();
-  fill(204,255,255);
+  fill(random (204, 255),random (204,255),random (204,255));
   ellipse (random(600), random(600), random (10), random (10));
 }
 
