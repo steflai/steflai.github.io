@@ -11,5 +11,5 @@ function draw() {
   fill (random (200), 255, random (200));
   rect (width/3, 0, width/3, height);
   fill (random (200), random (200), 255);
-  rect ((width/3)*2, 0, width/3, 600);
+  rect ((width/3)*2, 0, width/3, height);
 }
