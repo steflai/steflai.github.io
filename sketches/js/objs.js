@@ -1,5 +1,5 @@
 function setup() {
-  var canv = createCanvas(600, 600);
+  var canv = createCanvas(windowHeight*0.8, windowHeight*0.8);
   canv.parent ('sketchDiv')
   background(51,51,51);
   fill(0,255,0);

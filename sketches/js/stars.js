@@ -5,7 +5,7 @@ let y = 0;
 
 function setup() {
   noLoop();
-  var canv = createCanvas(600, 600);
+  var canv = createCanvas(windowHeight*0.8, windowHeight*0.8);
   canv.parent ('sketchDiv')
   background (0,0,26);
   button1=createButton('Start');
@@ -20,7 +20,7 @@ function setup() {
 function makeStars(){
   noStroke();
   fill(random (204, 255),random (204,255),random (204,255));
-  ellipse (random(600), random(600), random (10), random (10));
+  ellipse (random(width), random(height), random (10), random (10));
 }
 
 function begin(){
@@ -30,7 +30,7 @@ function begin(){
 function reset(){
   noStroke();
   fill(0,0,26);
-  rect(0,0,600,600);
+  rect(0,0,width,height);
 }
 
 function stopLoop(){

@@ -9,7 +9,7 @@ var word = ''
 
 function setup() {
   noLoop()
-  var canv = createCanvas(600, 600);
+  var canv = createCanvas(windowHeight*0.8, windowHeight*0.8);
   canv.parent(sketchDiv);
   frameRate(5);
   background(220);
