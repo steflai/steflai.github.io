@@ -31,3 +31,20 @@ p{
   max-width: 1200px;
   padding-right: 50px;
 }
+
+.pseudocode{
+  background-color: black;
+  font-family: monospace;
+  color: limegreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.intro {
+}

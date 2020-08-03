@@ -4,7 +4,9 @@ var leaves = [];
 
 function setup() {
   var canv = createCanvas(400, 400);
-  canv.parent = ('theSketch');
+  //let div_holder = document.getElementById('theSketch');
+  canv.parent ("theSketch");
+
   var a = createVector (width/2, height);
   var b = createVector (width/2, height-100);
   var root = new branch(a, b);
