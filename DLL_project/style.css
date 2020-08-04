@@ -32,19 +32,47 @@ p{
   padding-right: 50px;
 }
 
+.parent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro{
+  width: 600px;
+  margin: auto;
+}
+
 .pseudocode{
   background-color: black;
   font-family: monospace;
   color: limegreen;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 600px;
+  margin: auto;
 }
 
 .image {
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 600px;
+  margin: auto;
 }
 
+body::-webkit-scrollbar {
+  width: 5em;
+}
 
-.intro {
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+  border-radius: 10px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,.3);
+  background-color: deeppink;
+  /* outline: 1px solid slategrey; */
 }
