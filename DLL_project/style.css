@@ -32,6 +32,13 @@ p{
   padding-right: 50px;
 }
 
+span {
+  font-style: italic;
+  font-weight: bolder;
+  color: seagreen;
+  font-size: 20px;
+}
+
 .parent {
   display: flex;
   justify-content: center;
