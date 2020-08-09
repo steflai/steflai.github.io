@@ -5,7 +5,7 @@ import json
 from datetime import datetime, timedelta
 from random import randint
 
-api_key = 'pCmAQKhzeLNoH82i6OasGdfgwAGPpn5txrnxBqqY'
+
 
 # create the application object
 app = Flask(__name__, static_folder='public', template_folder='views')
