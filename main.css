@@ -1,0 +1,103 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@keyframes rainbow {
+  0% {background-color: darkslategray;}
+  25% {background-color: darkslateblue;}
+  50% {background-color: midnightblue;}
+  75% {background-color: rebeccapurple;}
+  100%{background-color: darkslategray;}
+}
+
+body {
+  padding: 2em;
+  text-align: center;
+  animation-name: rainbow;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+
+}
+
+h1{
+	font-family: Josefin Sans;
+	font-size:32px;
+	color: #ffffe6;
+}
+
+h2{
+	font-family: Josefin Sans;
+	font-style: bold;
+	font-size: 40px;
+	color:#ffffb3;
+}
+
+h3{
+	font-family: Josefin Sans;
+	font-size: 24px;
+	color:lightpink;
+}
+
+p{
+	font-family: Didact Gothic;
+	font-size:20px;
+	color:#ffffe6;
+}
+
+a:link{
+  color::#ffffe6;
+}
+
+a:hover{
+  color:pink;
+}
+
+a:visited{
+  color:peachpuff;
+}
+
+/* .desktop_visible {
+} */
+
+.grid_container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border: 2px dotted Azure;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;}
+
+
+.mobile_visible {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+/* body,html{
+    background-color: aqua;
+    color: coral;
+}
+
+body {
+    border: 3em dotted coral;
+} */
+
+.desktop_visible {
+  display: none;
+}
+
+.mobile_visible {
+  display: inline;
+}
+
+}
